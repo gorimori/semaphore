@@ -1,19 +1,22 @@
 {
   "name": "semaphore",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.1.0",
+  "description": "A simple implementation of a semaphore in TypeScript",
+  "main": "./build/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/main.js",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/gorimori/semaphore.git"
   },
   "type": "module",
-  "keywords": [],
+  "keywords": [
+    "semaphore"
+  ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/gorimori/semaphore/issues"
   },
